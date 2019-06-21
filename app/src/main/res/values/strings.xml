@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quotes Mall</string>
+
+    <string name="hashexample">#love #followback #instagramers #envywear #tweegram #photooftheday #20likes #amazing #smile #follow4follow #like4like #look #instalike #igers #picoftheday #food #instadaily #instafollow #followme #girl #instagood #bestoftheday #instacool #envywearco #follow #colorful #style #swag</string>
+    <string name="title_activity_login">login</string>
+    <string name="version">v1.0</string>
+    <string name="about">Hey! thanks for downloading my app and I hope you are enjoying with #Hashtag</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_feed">feed</string>
+
+
+</resources>

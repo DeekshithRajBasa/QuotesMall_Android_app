@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fashion">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/too"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="43dp"
+                android:layout_height="41dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="49dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/back" />
+
+            <TextView
+
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="42dp"
+                android:fontFamily="@font/mb"
+                android:text="Quotes Mall"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                app:civ_border_width="4dp"
+                app:civ_border_color="#ffffff"
+                android:src="@drawable/fashion" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="19dp"
+                android:fontFamily="@font/mr"
+                android:text="All Quotes at one place"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <!--   <EditText
+        android:id="@+id/search_field"
+        android:layout_width="204dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/search_btn"
+        android:background="@drawable/search_layout"
+        android:ems="10"
+        android:fontFamily="@font/nunito_semibold"
+        android:foregroundGravity="center"
+        android:hint="Search here"
+        android:inputType="textPersonName"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:textColor="#999999"
+        android:textColorHint="#ffffff"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+
+        android:background="@drawable/search" /> -->
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/too"
+        android:id="@+id/recyclerview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/recycler_view_item_1" />
+    <!-- <include
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+        android:layout_below="@id/recyclerview1"
+         layout="@layout/cards_main"
+         />-->
+    <!--  <android.support.design.widget.FloatingActionButton
+          android:id="@+id/fab"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentEnd="true"
+          android:layout_gravity="bottom|end"
+          android:layout_marginBottom="21dp"
+          android:layout_marginEnd="21dp"
+          android:paddingBottom="10dp"
+          android:paddingRight="10dp"
+          app:srcCompat="@android:drawable/ic_dialog_info" /> -->
+</RelativeLayout>

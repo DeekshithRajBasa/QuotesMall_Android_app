@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="android:navigationBarColor">@color/myred</item>
+        <item name="android:statusBarColor">@color/myred</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="toolbar" parent="AppTheme">
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="showcasetitlestyle" parent="TextAppearance.ShowcaseView.Title.Light">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="Diloge" parent="@style/Base.V21.Theme.AppCompat.Light.Dialog">
+        <item name="actionBarSize">0dp</item>
+    </style>
+
+    <style name="Splash.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Splash.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
